@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe6c911b-b62f-4765-8a7a-3d02a3f143bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="fe6c911b-b62f-4765-8a7a-3d02a3f143bf" name="Changes" comment="Initial commit for the web scraper project.&#10;&#10;This project is designed to scrape websites for &quot;Contact Us&quot;, &quot;Team&quot;, or similar pages to extract phone numbers and relevant contact details. It uses:&#10;- `requests` to fetch web pages.&#10;- `BeautifulSoup` to parse and extract HTML elements.&#10;- `re` (regular expressions) to identify and clean phone numbers.&#10;- `csv` to store extracted phone numbers in a structured format.&#10;&#10;Features included in this commit:&#10;- Fetching website content while ensuring proper URL formatting.&#10;- Searching for relevant contact-related pages within a site.&#10;- Extracting and cleaning phone numbers.&#10;- Avoiding duplicates and appending new numbers to an existing CSV file.&#10;&#10;This commit sets up the foundational structure for expanding the scraper with additional functionalities such as handling JavaScript-heavy sites and more advanced data extraction." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/matthewmakh/Website-phone-scraper.git",
+    "accountId": "04549f90-93c8-42cb-be76-899a39a6ce49"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -41,6 +39,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
@@ -60,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1738109787542</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit for the web scraper project.&#10;&#10;This project is designed to scrape websites for &quot;Contact Us&quot;, &quot;Team&quot;, or similar pages to extract phone numbers and relevant contact details. It uses:&#10;- `requests` to fetch web pages.&#10;- `BeautifulSoup` to parse and extract HTML elements.&#10;- `re` (regular expressions) to identify and clean phone numbers.&#10;- `csv` to store extracted phone numbers in a structured format.&#10;&#10;Features included in this commit:&#10;- Fetching website content while ensuring proper URL formatting.&#10;- Searching for relevant contact-related pages within a site.&#10;- Extracting and cleaning phone numbers.&#10;- Avoiding duplicates and appending new numbers to an existing CSV file.&#10;&#10;This commit sets up the foundational structure for expanding the scraper with additional functionalities such as handling JavaScript-heavy sites and more advanced data extraction.">
+      <option name="closed" value="true" />
+      <created>1738119531215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738119531215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit for the web scraper project.&#10;&#10;This project is designed to scrape websites for &quot;Contact Us&quot;, &quot;Team&quot;, or similar pages to extract phone numbers and relevant contact details. It uses:&#10;- `requests` to fetch web pages.&#10;- `BeautifulSoup` to parse and extract HTML elements.&#10;- `re` (regular expressions) to identify and clean phone numbers.&#10;- `csv` to store extracted phone numbers in a structured format.&#10;&#10;Features included in this commit:&#10;- Fetching website content while ensuring proper URL formatting.&#10;- Searching for relevant contact-related pages within a site.&#10;- Extracting and cleaning phone numbers.&#10;- Avoiding duplicates and appending new numbers to an existing CSV file.&#10;&#10;This commit sets up the foundational structure for expanding the scraper with additional functionalities such as handling JavaScript-heavy sites and more advanced data extraction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for the web scraper project.&#10;&#10;This project is designed to scrape websites for &quot;Contact Us&quot;, &quot;Team&quot;, or similar pages to extract phone numbers and relevant contact details. It uses:&#10;- `requests` to fetch web pages.&#10;- `BeautifulSoup` to parse and extract HTML elements.&#10;- `re` (regular expressions) to identify and clean phone numbers.&#10;- `csv` to store extracted phone numbers in a structured format.&#10;&#10;Features included in this commit:&#10;- Fetching website content while ensuring proper URL formatting.&#10;- Searching for relevant contact-related pages within a site.&#10;- Extracting and cleaning phone numbers.&#10;- Avoiding duplicates and appending new numbers to an existing CSV file.&#10;&#10;This commit sets up the foundational structure for expanding the scraper with additional functionalities such as handling JavaScript-heavy sites and more advanced data extraction." />
   </component>
 </project>
